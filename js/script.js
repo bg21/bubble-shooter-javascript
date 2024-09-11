@@ -37,6 +37,8 @@ function drawBubbles() {
     });
 }
 
+
+// Função para desenhar o atirador (linha de tiro)
 function drawShooter() {
     ctx.beginPath();
     ctx.moveTo(shooterX, shooterY);
